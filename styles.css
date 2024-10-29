@@ -169,7 +169,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 76px 20% 76px 20%;
+    padding: 88px 20% 88px 20%;
     color: #F9FAF8;
 }
 
@@ -206,6 +206,16 @@ body {
 
 /* t-section END */
 
+/* footer */
+
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 12px 20% 12px 20%;
+    font-size: 14px;
 }
+
+/* footer END */
