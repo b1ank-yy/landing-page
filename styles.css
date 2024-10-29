@@ -87,10 +87,53 @@ body {
 
 /* Section END */
 
+/* f-section */
+
 .f-section {
     background-color: #F9FAF8;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 33px 20% 76px 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+.f-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    gap: 38px;
+}
+
+.card {
+    width: 150px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 0.45cm;
+}
+
+/* f-section END */
+
+
 
 .s-section {
     background-color: #E5E7EB;
